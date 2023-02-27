@@ -1,0 +1,41 @@
+{
+
+  "$schema": "http://json-schema.org/draft-04/schema#",
+
+  "title": "response",
+
+  "description": "JSON schema based on the 'response' file",
+
+  "type": "object",
+
+  "properties": {
+
+    "id": {
+
+      "type": "number",
+
+      "minimum": 1,
+
+      "description": "response id"
+
+    },
+
+    "text": {
+
+      "type": "string",
+
+      "description": "response message"
+
+    }
+
+  },
+
+  "required": [
+
+    "id",
+
+    "text"
+
+  ]
+
+}
